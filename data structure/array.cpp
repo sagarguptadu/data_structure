@@ -40,9 +40,9 @@ int main() {
     cin >> size;
 
     int a[size];
-    
+    cout<< "enter the elemnets of the array : ";
     for(int i = 0; i < size; i++) {
-    cout << "Enter " << i << " elements: ";
+    
         cin >> a[i];
     }
     int choice;
