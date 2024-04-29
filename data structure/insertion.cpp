@@ -35,6 +35,7 @@ int main() {
 int n = sizeof(array) / sizeof(array[0]);
   insertion_sort(array,n);
   print_array(array, n);
+  cout<<endl;
   insertion_sort(a,n);
   print_array(a, n);
 }
